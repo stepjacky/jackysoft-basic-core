@@ -1,0 +1,1 @@
+keytool -genkey -alias tomcat -dname "CN=XianBin, OU=RAD, O=Company, L=GuangZhou, ST=GuangDong, C=CN" -keyalg RSA -keysize 1024 -validity 365 -keypass changeit -storepass changeit -keystore tomcat.keystore
